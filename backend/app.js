@@ -23,8 +23,8 @@ app.get("/", (req,res) =>{
   res.json({
     success: true,
     message: "SUCCESSFULLY RUNNING",
-  })
-})
+  });
+});
 
 app.use("/api/v1/message", messageRouter);
 
